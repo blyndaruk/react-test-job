@@ -1,0 +1,30 @@
+.post {
+  padding: 15px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #282c34;
+
+  & + & {
+    margin-top: 30px;
+  }
+
+  &__title {
+    margin: 0 0 10px;
+  }
+
+  &__description {
+    p {
+      margin: 0;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+
+    button + button {
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.products {
+  max-width: 600px;
+  margin: 0 auto;
+
+  &__item {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #000000;
+
+    h2 {
+      margin: 0 0 10px;
+    }
+
+    & > div { // just for test case
+      margin-bottom: 5px;
+    }
+  }
+}
